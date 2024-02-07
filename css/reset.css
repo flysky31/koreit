@@ -1,0 +1,89 @@
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    word-break: keep-all;
+    box-sizing: border-box;
+}
+
+body {
+	line-height: 1.5;
+    font-family: 'NanumSquare', sans-serif;
+    color: #232323;
+    min-width: 320px;
+    font-size: 16px;
+}
+html{
+    scroll-behavior: smooth;
+}
+ol, ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+i{
+    font-style: normal;
+}
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* select {
+    -webkit-appearance:none; 
+    -moz-appearance:none;
+    appearance:none 
+} */
+
+
+a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    
+}
+input, button, select{
+    font-family: 'NanumSquare', sans-serif!important;
+}
+h2,b{
+    font-weight: 800;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+figure{
+    margin: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.clearfix:after{
+    content:"";
+    clear: both;
+    display: block;
+}
+
+
+
+.normal		{ font-weight: 400 }
+.bold		{ font-weight: 700 }
+.bolder		{ font-weight: 800 }
+.light		{ font-weight: 300 }
